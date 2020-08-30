@@ -1,0 +1,106 @@
+body {
+    overflow: hidden;
+}
+
+.section__group,
+.section__panel {
+    height: 100%;
+}
+
+.section__panel {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 92px);
+}
+
+.break {
+    flex-basis: 100%;
+}
+
+.header {
+    background: #3d9Bff;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    font-weight: normal;
+}
+
+.main-container {
+    overflow: hidden;
+    flex: 1;
+    display: flex;
+}
+
+.job-list {
+    background: #e4eef1;
+    width: 500px;
+    overflow: auto;
+}
+
+.job-list .scroller {
+    height: 100%;
+}
+
+.job-list,
+.main-content {
+    padding: 20px;
+    height: calc(100% - 80px);
+    overflow: auto;
+}
+
+.job {
+    color: #8d8383;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.job .job-title {
+    font-size: 1.2em;
+}
+
+.job .job-title .title-text {
+    font-weight: bold;
+    color: #000;
+}
+
+.job .job-title .job-id {
+    margin-left: 10px;
+}
+
+.job .job-location {
+    margin-bottom: 1em;
+}
+
+.job .job-time {
+    font-weight: bold;
+}
+
+.job .job-resources-number {
+    color: #3d9bff;
+    border: 1px solid #3d9bff;
+    border-radius: 100%;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.main-content {
+    flex: 1;
+    background: #fff;
+}
+
+.main-content .placeholder-box {
+    background: #e4eef1;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}

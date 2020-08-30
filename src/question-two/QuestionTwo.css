@@ -1,0 +1,15 @@
+.swimlane__card {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 5px;
+    font-size: 0.8em;
+    color: #8d8383;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.swimlane__card:hover {
+    text-shadow: 0 0 5px orange;
+    overflow: initial;
+    color: #000;
+}
